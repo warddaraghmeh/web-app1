@@ -1,7 +1,6 @@
 <template>
   <h1>App</h1>
   <myform>  </myform>
-  
 </template>
 
 <script>
