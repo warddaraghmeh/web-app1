@@ -19,6 +19,7 @@
     </li>
 </ul>
 <input type="text" :value="newPlayer">
+<img :src="image">
 
 
 </template>
@@ -29,12 +30,11 @@ export default {
 
         return{
             players:[
-                "ward",
-                "moath",
-                "omar"
+                "ward", "moath","omar"
 
             ],
-            newPlayer:"salem"
+            newPlayer:"salem",
+            image:"/src/assets/images.png"
             
 
            
